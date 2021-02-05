@@ -1,0 +1,1049 @@
+/** Global css **/
+
+/********** Vertigo bold Font**********/
+
+@font-face {
+    font-family: 'vertigo bold';
+    src: url('../fonts/vertigo_bold-webfont.woff2') format('woff2'),
+         url('../fonts/vertigo_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vertigo demi bold';
+    src: url('../fonts/vertigo_demibold-webfont.woff2') format('woff2'),
+         url('../fonts/vertigo_demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vertigo light';
+    src: url('../fonts/vertigo_light-webfont.woff2') format('woff2'),
+         url('../fonts/vertigo_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vertigo';
+    src: url('../fonts/vertigo-webfont.woff2') format('woff2'),
+         url('../fonts/vertigo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/**** Arial ****/
+
+@font-face {
+    font-family: 'arial';
+    src: url('../fonts/arial-webfont.woff2') format('woff2'),
+         url('../fonts/arial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arial bold';
+    src: url('../fonts/arialbd-webfont.woff2') format('woff2'),
+         url('../fonts/arialbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arial bold_italic';
+    src: url('../fonts/arialbi-webfont.woff2') format('woff2'),
+         url('../fonts/arialbi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arial italic';
+    src: url('../fonts/ariali-webfont.woff2') format('woff2'),
+         url('../fonts/ariali-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arial black';
+    src: url('../fonts/ariblk-webfont.woff2') format('woff2'),
+         url('../fonts/ariblk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/********* Font css end **********/
+
+/********* Global css **********/
+
+*{
+	box-sizing: border-box;
+    background-size: cover;
+}
+body{
+	margin: 0;
+	padding: 0;
+    color: #000;
+    font-family: Vertigo;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+a,a:hover{
+	text-decoration: none;
+	color: #193B69;
+}
+img{
+	max-width: 100%;
+}
+.arial{
+    font-family: 'arial';
+}
+.vertigo_bold {
+    font-family: 'vertigo bold';
+}
+.m-0{
+	margin: 0px !important;
+}
+.mb-5{
+	margin-bottom: 5px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.mb-15{
+	margin-bottom: 15px;
+}
+.mb-20{
+	margin-bottom: 20px;
+}
+.mt-5{
+	margin-top: 5px;
+}
+.mt-10{
+	margin-top: 10px;
+}
+.mt-15{
+	margin-top: 15px;
+}
+.mt-20{
+	margin-top: 20px;
+}
+.p-0{
+	padding: 0px !important;
+}
+.pb-5{
+	padding-bottom: 5px;
+}
+.pb-10{
+	padding-bottom: 10px;
+}
+.pb-15{
+	padding-bottom: 15px;
+}
+.pb-20{
+	padding-bottom: 20px;
+}
+.pt-5{
+	padding-top: 5px;
+}
+.pt-10{
+	padding-top: 10px;
+}
+.pt-15{
+	padding-top: 15px;
+}
+.pt-20{
+	padding-top: 20px;
+}
+
+
+/******* Header css *********/
+header.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    box-sizing: border-box;
+    padding: 15px 0;
+    background: #fff;
+    box-shadow: 0 4px 10px -3px #00000029;
+}
+.for-mobile,
+.mobile-contact{
+    display: none;
+}
+.logo {
+    float: left;
+    width: 25%;
+}
+.logo img {
+    max-width: 250px;
+    width: 100%;
+    margin-top: 22px;
+}
+.contact-order {
+    float: right;
+    width: 75%;
+}
+.contact-text {
+    width: 37%;
+    float: left;
+}
+.contact-text p {
+    font-size: 24px;
+    text-align: left;
+    color: #193B69;
+    padding-right: 0;
+    padding-top: 30px;
+    margin: auto;
+    display: block;
+    max-width: 130px;
+}	
+.contact-column {
+    width: 29%;
+    float: left;
+}
+.contact-column.contact-first {
+    margin-right: 5%;
+    position: relative;
+}
+.contact-column.contact-first:before {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 20px;
+	width: 1px;
+    background: #193B69;
+}
+.contact-column h5 {
+    color: #EA482F;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+p.phone-contact {
+    padding-left: 30px;
+    font-size: 12px;
+    min-height: 64px;
+    background: url('../images/Phone-Icon.svg') no-repeat;
+    background-position: top 5px left;
+    background-size: 22px;
+}
+
+p.phone-contact a {
+    font-weight: 600;
+    display: block;
+    padding: 8px 0 4px;
+    line-height: 1;
+    font-size: 14px;
+}
+p.phone-contact .small-tm{
+    font-size: 75%;
+}
+p.mail-contact {
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 8px;
+    background: url('../images/Email-Icon.svg') no-repeat;
+    background-position: top 5px left;
+    background-size: 22px;
+}
+
+/***** Banner section ****/
+.main {
+    padding-top: 142px;
+}
+
+.banner_section {
+    position: relative;
+    /*padding: 105px 0;*/ padding: 39px 0;
+    background: url('../images/ALK_Hero-Desktop.png') no-repeat;
+    background-size: cover;
+}
+.banner_section h1 {
+    font-size: 62px;
+    font-family: 'vertigo light';
+    color: #193B69;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.banner_section p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.banner_text_for_mob{
+    display: none;
+}
+
+
+/********* Us map section **********/
+
+.us_map_section {
+    background: #dde2e9;
+    border-top: 2px solid #193B69;
+}
+.map_img {
+    margin-bottom: -100px;
+    margin-left: -45px;
+    padding-right: 45px;
+    margin-top: -1px;
+}
+
+.map_content {
+    padding: 25px 0px 20px;
+    font-size: 16px;
+}
+.map_content p {
+    color: #193B69;
+}
+
+/********* Life science section **********/
+.life_content {
+    padding: 40px 0 30px;
+}
+
+.life_content h2 {
+    color: #193B69;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.life_content p {
+    color: #000;
+    font-size: 20px;
+}
+
+
+/********* FluroTec Barrier section **********/
+
+.fluro_border{
+	border-top: 1px solid #EA482F;
+	/* border-bottom:  1px solid #EA482F; */
+    padding: 20px 0;
+}
+.fluro-img img {
+    float: left;
+    width: 100px;
+}
+
+.fluro-img h3 {
+    float: right;
+    width: 54%;
+    color: #193B69;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 25px 0px;
+    line-height: 1.3;
+}
+p.fluro_content {
+    font-size: 18px;
+    padding-top: 10px;
+    color: #193B69;
+}
+
+/**** List Bottle item section ****/
+
+.list_item {
+    padding: 20px 0 10px;
+}
+
+.item {
+    margin-bottom: 40px;
+}
+
+.item-top {
+    border-radius: 10px 10px 0 0;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px -2px #899ab2;
+}
+.fluro-tec-item .item-top {
+    background-image: url(../images/FluroTec-Icon.svg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: right 10px top 5px;
+}
+
+p.item-id {
+    padding: 15px 0 0 15px;
+    font-weight: bold;
+}
+.item_img {
+    text-align: center;
+}
+
+.selected.item img.amber,
+.item img.clear{
+    display: inline-block;
+}
+
+.selected.item img.clear,
+.item img.amber{
+    display: none;
+}
+.item_descrition {
+    background: #4E88DB;
+    padding: 15px 15px 20px;
+    border-radius:0 0 10px 10px;
+}
+
+.selected .item_descrition {
+    background: #702E06;
+}
+.selected p.item-id:after {
+    content: "-AMB";
+}
+.selected.fluro-tec-item .item-top {
+    background-image: none;
+}
+.item_descrition h5 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+}
+
+.item_descrition p {
+    color: #fff;
+}
+
+.item_btn {
+    margin-top: 15px;
+    min-height:51px;
+    text-align: center;
+    position: relative;
+}
+
+.item_btn:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+}
+.selected .item_btn:before{
+    left: auto;
+    right: 0;
+}
+.item_btn img {
+    width: 96px;
+    cursor: pointer;
+}
+
+.item_btn img.single {
+    width: 36px;
+    pointer-events: none;
+}
+
+
+/*Fullwidth stripe*/
+
+.stripe_blue {
+    width: 100%;
+    clear: both;
+    display: inline-block;
+    background: #0D2E4C;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.custom_border-right {
+    border-right: 1px solid #fff;
+}
+
+.stripe_blue p a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.stripe_blue img {
+    max-width: 60px;
+}
+
+/*Footer style*/
+.footer {
+    padding: 40px 0;
+}
+.footer .footer-top p {
+    margin-bottom: 10px;
+}
+
+.footer_copyright {
+    margin-top: 70px;
+}
+
+.footer_copyright img {
+    margin-bottom: 20px;
+}
+.footer_copyright p {
+    margin-top: 3px;
+}
+.footer_copyright a {
+    text-decoration: underline;
+}
+
+
+/**************** Responsive layouts *******************/
+
+/*Large desktop or Mac*/
+
+@media (min-width:1200px){
+    .container {
+        width: 1170px;
+        max-width: 100%;
+    }
+    header.header .container,
+    .banner_section .container{
+        width: 1190px;
+        max-width: 100%;
+        padding: 0;
+    }
+    .banner_section{
+        background-position: right center;
+    }
+}
+@media (min-width:1400px){
+    .container {
+        width: 1350px;
+    }
+    header.header .container,
+    .banner_section .container{
+        width: 1370px;
+    }
+
+    .banner_section {
+        position: relative;
+        padding: 66px 0;
+    }
+    .banner_section h1 {
+        font-size: 75px;
+    }
+}
+@media (min-width:1601px){
+    .container {
+        width: 1570px;
+        max-width: 100%;
+    }
+    .contact-text{
+        width: 36%;
+    }
+    .contact-column{
+        width: 29%;
+    }
+    header.header .container,
+    .banner_section .container{
+        max-width: 91%;
+        width: 1742px;
+    }
+
+    header.header {
+        padding: 20px 0;
+    }
+    .logo {
+        width: 27%;
+    }
+    .logo img {
+        max-width: 406px;
+        margin-top: 39px;
+    }
+
+    .contact-order {
+        width: 73%;
+    }
+
+    .contact-text p {
+        padding-top: 70px;
+        font-size: 32px;
+        max-width: 224px;
+        line-height: 38px;
+    }
+
+    .contact-column h5 {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+
+    p.phone-contact {
+        font-size: 16px;
+        padding-left: 58px;
+        background-size: 42px;
+        min-height: 85px;
+    }
+
+    p.phone-contact a {
+        font-size: 20px;
+        padding: 15px 0 5px;
+    }
+
+    p.mail-contact{
+        font-size: 16px;
+        background-size: 42px;
+        padding: 12px 0 12px 58px;
+    }
+
+    p.phone-contact .small-tm{
+        font-size: 10px;
+    }
+    p.mail-contact a{
+        font-size: 20px;
+    }
+    .contact-column.contact-first:before{
+        top: 48px;
+    }
+    .main {
+        padding-top: 224px;
+    }
+
+    .banner_section h1 {
+        font-size: 90px;
+        line-height: 1.1;
+        max-width: 600px;
+    }
+
+    .banner_section .col-sm-4 {
+        width: 44%;
+    }
+
+    .banner_section p {
+        font-size: 28px;
+        line-height: 38px;
+        max-width: 600px;
+    }
+
+    .banner_section {
+        padding: 95px 0;
+    }
+
+    .map_content {
+        font-size: 20px;
+        max-width: 1120px;
+        padding: 40px 0 20px;
+    }
+
+    .map_img {
+        margin-bottom: -120px;
+        margin-left: -80px;
+        padding-right: 90px;
+    }
+    .life_content {
+        padding: 60px 0 40px;
+    }
+
+    .life_content h2 {
+        font-size: 42px;
+    }
+
+    .life_content p {
+        font-size: 26px;
+    }
+
+    .fluro-img img {
+        width: 120px;
+    }
+
+    .fluro-img h3 {
+        font-size: 34px;
+        padding-right: 50px;
+        padding-top: 30px;
+        width: 64%;
+    }
+
+    p.fluro_content {
+        font-size: 26px;
+        margin: 0 0 0 -100px;
+    }
+    p.item-id {
+        font-size: 18px;
+    }
+
+    .fluro-tec-item .item-top {
+        background-size: 70px;
+    }
+
+    .item_descrition h5 {
+        font-size: 24px;
+    }
+
+    .item_descrition p {
+        font-size: 16px;
+    }
+
+    p.item-id {
+        font-size: 18px;
+    }
+
+    .fluro-tec-item .item-top {
+        background-size: 70px;
+    }
+
+    .item_descrition h5 {
+        font-size: 34px;
+    }
+
+    .item_descrition p {
+        font-size: 16px;
+    }
+
+    .stripe_blue {
+        padding: 45px 0;
+    }
+
+    .stripe_blue img {
+        max-width: 102px;
+    }
+
+    .stripe_blue p a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .footer-top {
+        font-size: 16px;
+    }
+    .footer_copyright {
+        font-size: 16px;
+    }
+    .footer_copyright {
+        font-size: 16px;
+    }
+}
+
+/********* Noraml desktop ********/
+@media (max-width: 1199px){
+    .map_content {
+        padding: 15px 0px 20px;
+    }
+    .contact-column {
+        width: 33%;
+    }
+    .contact-text{
+        width:30%;
+    }
+    .contact-column.contact-first {
+        margin-right: 3%;
+        width: 34%;
+    }
+    .banner_section h1 {
+        font-size: 42px;
+    }
+    .banner_section {
+        padding: 38px 0;
+    }
+}
+
+/*****For tablet******/
+@media (max-width: 1024px){
+    .banner_section {
+        padding: 32px 0;
+    }
+    .banner_section p{
+        font-size: 15px;
+    }
+}
+
+/*****For tablet******/
+@media (max-width: 991px){
+    .contact-text {
+        width: 20%;
+        float: left;
+    }
+    .contact-text p {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .contact-column {
+        width: 38%;
+    }
+    .contact-column.contact-first {
+        width: 39%;
+    }
+    p.phone-contact{
+        font-size: 11px;
+    }
+    p.mail-contact {
+        font-size: 12px;
+        padding-bottom: 4px;
+    }
+    p.phone-contact{
+        min-height: 56px;
+    }
+    .main {
+        padding-top: 135px;
+    }
+    .banner_section {
+        padding: 13px 0;
+    }
+    .banner_section h1 {
+        font-size: 33px;
+    }
+    .banner_section p{
+        font-size: 12px;
+    }
+    .map_content{
+        font-size: 13px;
+    }
+
+    .life_content h2 {
+        font-size: 21px;
+    }
+
+    .life_content p {
+        font-size: 16px;
+    }
+    .fluro-img img{
+        width: 80px;
+    }
+
+    .fluro-img h3{
+        font-size: 22px;
+    }
+    p.fluro_content {
+        font-size: 16px;
+    }
+    .item_img img {
+        max-width: 80%;
+    }
+
+}
+
+/*****For Mobiles******/
+@media (max-width: 767px){
+    .main {
+        padding-top: 110px;
+    }
+    header.header{
+        padding:10px 0;
+    }
+    .for-mobile{
+        display: block;
+    }
+    .for-desktop{
+        display: none;
+    }
+    .mobile-contact{
+        display: block;
+        float: left;
+        width: 60%;
+    }
+    .logo {
+        float: right;
+        width: 40%;
+        text-align: right;
+    }
+    .banner_text_for_mob{
+        display: block;
+    }
+    p.phone-contact {
+        min-height: 1px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+    .contact-column{
+        width: 100%;
+    }
+    .contact-column h5{
+        margin-top:10px;
+    }
+
+    .logo img{
+        margin-top: 4px;
+    }
+    .dd_icon {
+        color: #193B69;
+        font-weight: 600;
+        vertical-align: middle;
+        margin-top: 4px;
+    }
+
+    .dd_icon img {
+        vertical-align: baseline;
+    }
+    .dd_icon.collapsed img {
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .banner_section{
+        background-image: url(../images/ALK_Hero-Mobile.png);
+        padding: 42px 0;
+    }
+    .banner_section h1{
+        margin-bottom: 0;
+        line-height: 1.2;
+    }
+    .banner_text_for_mob {
+        padding: 20px;
+        font-weight: 600;
+    }
+    .map_img {
+        margin-bottom: 0;
+        margin-left: -20px;
+        padding-right: 20px;
+    }
+    .fluro-img h3,
+    p.fluro_content {
+        float: right;
+        width: 75%;
+    }
+    .fluro-img img{
+        max-width: 20%;
+    }
+    .fluro_border{
+        border-bottom: none;
+    }
+    .item_btn img.single{
+        width: 36px;
+    }
+    .custom_border-right {
+        border-right: none;
+        padding-bottom: 20px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .custom_border-right:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 175px;
+        height: 1px;
+        background: #fff;
+    }
+
+    .stripe_blue p {
+        max-width: 190px;
+        margin: auto;
+    }   
+}
+
+@media (max-width: 639px){
+    .main {
+        padding-top: 88px;
+    }
+}
+@media (max-width: 479px){
+    .main {
+        padding-top: 70px;
+    }
+    .banner_section h1 {
+        font-size: 23px;
+    }
+    .banner_section{
+       padding: 25px 0; 
+    }
+    .banner_text_for_mob{
+        font-size: 13px;
+    }
+    .map_img {
+        margin-bottom: 0;
+        margin-left: 0px;
+        padding-right: 0px;
+    }
+    .map_content {
+        padding: 10px 0px 0;
+    }
+    .for-mobile .map_content {
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    .for-mobile .map_content p {
+        margin-bottom: 5px;
+    }
+    .life_content {
+        padding: 25px 0 20px;
+    }
+    .life_content h2 {
+        margin: 0 auto 10px;
+        max-width: 230px;
+        line-height: 1.3;
+        font-size: 18px;
+    }
+    .life_content p {
+        font-size: 13px;
+    }
+    .fluro-img h3 {
+        font-size: 19px;
+        padding: 0;
+    }
+    p.fluro_content {
+        font-size: 14px;
+    }
+    .list_item .col-xs-6 {
+        padding: 0 5px;
+    }
+
+    .list_item .row {
+        margin: 0 -10px;
+    }
+
+    .item-top {
+        border-radius: 7px 7px 0 0;
+        box-shadow: 0px 0px 9px -3px #899ab2;
+    }
+    .item_descrition p {
+        font-size: 13px;
+    }
+
+    .item_descrition {
+        padding: 15px 10px;
+    }
+
+    p.item-id {
+        padding: 15px 0 0 10px;
+        font-size: 12px;
+    }
+
+    .fluro-tec-item .item-top {
+        background-size: 30px;
+    }
+
+    .item_descrition h5 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 479px){
+    .banner_section h1 {
+        font-size: 21px;
+    }
+}
+ /* extra small screens */
+@media (max-width: 359px){
+    .banner_section h1 {
+        font-size: 18px;
+    }
+    .main {
+        padding-top: 65px;
+    }
+    
+    p.item-id,
+    .banner_text_for_mob {
+        font-size: 11px;
+    }
+    .map_content,
+    .item_descrition p {
+        font-size: 12px;
+    }   
+}
