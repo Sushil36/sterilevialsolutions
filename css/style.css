@@ -88,25 +88,25 @@
 /********* Global css **********/
 
 *{
-	box-sizing: border-box;
+    box-sizing: border-box;
     background-size: cover;
 }
 body{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
     color: #000;
     font-family: Vertigo;
 }
 h1,h2,h3,h4,h5,h6,p{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 a,a:hover{
-	text-decoration: none;
-	color: #193B69;
+    text-decoration: none;
+    color: #193B69;
 }
 img{
-	max-width: 100%;
+    max-width: 100%;
 }
 .arial{
     font-family: 'arial';
@@ -115,58 +115,58 @@ img{
     font-family: 'vertigo bold';
 }
 .m-0{
-	margin: 0px !important;
+    margin: 0px !important;
 }
 .mb-5{
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 .mb-10{
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .mb-15{
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 .mb-20{
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .mt-5{
-	margin-top: 5px;
+    margin-top: 5px;
 }
 .mt-10{
-	margin-top: 10px;
+    margin-top: 10px;
 }
 .mt-15{
-	margin-top: 15px;
+    margin-top: 15px;
 }
 .mt-20{
-	margin-top: 20px;
+    margin-top: 20px;
 }
 .p-0{
-	padding: 0px !important;
+    padding: 0px !important;
 }
 .pb-5{
-	padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 .pb-10{
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 .pb-15{
-	padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 .pb-20{
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 .pt-5{
-	padding-top: 5px;
+    padding-top: 5px;
 }
 .pt-10{
-	padding-top: 10px;
+    padding-top: 10px;
 }
 .pt-15{
-	padding-top: 15px;
+    padding-top: 15px;
 }
 .pt-20{
-	padding-top: 20px;
+    padding-top: 20px;
 }
 
 
@@ -212,7 +212,7 @@ header.header {
     margin: auto;
     display: block;
     max-width: 130px;
-}	
+}   
 .contact-column {
     width: 29%;
     float: left;
@@ -222,12 +222,12 @@ header.header {
     position: relative;
 }
 .contact-column.contact-first:before {
-	content: "";
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	top: 20px;
-	width: 1px;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 20px;
+    width: 1px;
     background: #193B69;
 }
 .contact-column h5 {
@@ -332,8 +332,8 @@ p.mail-contact {
 /********* FluroTec Barrier section **********/
 
 .fluro_border{
-	border-top: 1px solid #EA482F;
-	/* border-bottom:  1px solid #EA482F; */
+    border-top: 1px solid #EA482F;
+    /* border-bottom:  1px solid #EA482F; */
     padding: 20px 0;
 }
 .fluro-img img {
@@ -1046,4 +1046,12 @@ p.item-id {
     .item_descrition p {
         font-size: 12px;
     }   
+}
+.life_content h2 sup {
+    left: -2px;
+    top: -4px;
+}
+.banner_section p sup,
+.map_content p sup {
+    top: -4px;
 }
